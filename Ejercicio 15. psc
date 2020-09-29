@@ -1,0 +1,17 @@
+Algoritmo MediaAritmetica
+	Definir num, suma, contador Como real;
+	suma = 0;
+	contador = 0;
+	
+	Escribir "Introduzca numeros enteros positivos para formar una secuencia (Si quiere terminarla escriba -1)";
+	Mientras num <> -1 Hacer
+		Leer num;
+		Si num <> -1 Entonces
+			suma = suma + num;
+			contador = contador + 1;
+		Fin Si
+	Fin Mientras
+	Escribir "La media aritmetica de la secuencia dada es:" suma/contador;
+	
+	
+FinAlgoritmo
